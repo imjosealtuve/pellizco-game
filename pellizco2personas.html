@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <canvas></canvas>
+        <div class="contador">
+            <div class="cuadro2" id="jugador1">
+                <div>
+                    <img src="./img/personaje1.png" alt="personaje">
+                </div>
+                <div>
+                    <h1>Jugador 1:</h1>
+                    <p id="paragraph">0</p>
+                </div>
+            </div>
+            <div class="hr">
+                <hr />
+            </div>
+            <div class="cuadro" id="jugador2">
+                <div>
+                    <img src="./img/personaje2.png" alt="personaje">
+                </div>
+                <div>
+                    <h1>Jugador 2:</h1>
+                    <p id="paragraph2">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="modall containerpopup hidding" id="ganador">
+        <div class="modal__containner" id="modal-container">
+            <div class="modal__content">
+                
+                <img src="" alt="Imagen representativa de inicio" class="modal__img" id="imgGanador">
+                <h1 class="modal__title" id="h1Ganador">¡El jugador 1 <br /> es el ganador!</h1>
+                <p class="modal__description">¿Desean jugar de nuevo?</p>
+                <button class="modal__button modal__button-width" onclick="location.href='index.html'">
+                    ¡Sí!, juguemos de nuevo
+                </button>
+            </div>
+        </div>
+    </section>
+    <script src="./js/pellizco2personas.js"></script>
+</body>
+
+</html>

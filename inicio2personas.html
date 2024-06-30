@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Linkear css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+</head>
+<body>
+    <section class="modal containerpopup">
+        <button class="modal__button" id="open-modal">
+            ¡Juega Pellizco!
+        </button>
+        <div class="modal__containner" id="modal-container">
+            <div class="modal__content">
+                <div class="modal__close close-modal">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbBJREFUSEuNVouxhDAIXDrJdeJ1cq28SrxOtBQ74Uk+hgTwdOZmNCGw7AI5wvUQAO6f8maWHJt6wt+h7GIMoS2jmJFNYO+gjj0QeMwzmwrSaT17HTJ4QpHJ95agHKK7rW8GfMx7BZmlq4nkbLSWgwYjV/5Xd6SdOrYKr+up7n8AfI1B5z0xYQFrm1EPRZHhV5yvAB0Av8ruwF8i8MpAOpn+A9gCqSeucxPbCYTtRJcAHABeKoCsrQAWEHYw3lE/2T4YlUtg2k50Kggk8ArGcgbYAe28lWYv2RIgKpSyngjYChU5E/lNzuPuVAG0OLpk87qI2egSSB35gyp2ppE5dXFed6omvws7oMipllKOglyCdU1uM5iGnYMnIydg4UwLvavgmwQh4OBaXX0WjRMh6OSLd1Mt9bgE3ghIfJVwgzcKrgKYXFuj7QC/1bBpA04arVWX9IHQNz2/KfoA9J2HV7mWMqCmh+O89/4Y1RmqN2NvrEBH8PtGi7owAqFHbSPS9KDTlP3cCPFHjz240WoG8XXYZk50ZRal3GlqsjVwbb1P/0mKaz/Ne0TTrWhvCnVp/gPlDL0fODXRUgAAAABJRU5ErkJggg=="/>
+                </div>
+                <img src="./img/popup2.png" alt="Imagen representativa de inicio" class="modal__img">
+                <h1 class="modal__title">¡Bienvenido!</h1>
+                <p class="modal__description">¿Desea jugar con dos personas?</p>
+                <button class="modal__button modal__button-width" onclick="location.href='pellizco2personas.html'">
+                    ¡Sí!, empecemos
+                </button>
+                <button class="modal_button-link" onclick="location.href='index.html'">No, quiero volver</button>
+            </div>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
